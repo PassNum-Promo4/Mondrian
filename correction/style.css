@@ -1,0 +1,63 @@
+html,body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.mdr {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.mdr--row {
+  flex-direction: row;
+}
+
+.mdr__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.mdr__line {
+  display: flex;
+  flex-direction: row;
+}
+
+.mdr__div {
+  border: 5px solid #000000;
+}
+
+.mdr__div div {
+  border: 5px solid #000000;
+}
+
+.mdr__div--yellow {
+  background-color: yellow;
+}
+
+.mdr__div--red {
+  background-color: red;
+}
+
+.mdr__div--blue {
+  background-color: blue;
+}
+
+.flex1{
+  flex: 1;
+}
+.flex2{
+  flex: 2;
+}
+.flex3{
+  flex: 3;
+}
+.flex4{
+  flex: 4;
+}
+.flex5{
+  flex: 5;
+}
